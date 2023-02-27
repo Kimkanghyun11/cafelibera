@@ -209,10 +209,8 @@ table td {
     margin: 0 auto;
 }
 
-.main_img {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.main_img1 {
+    padding: 30px 100px;
 }
 
 .ex3 {
