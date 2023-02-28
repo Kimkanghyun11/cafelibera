@@ -29,6 +29,7 @@ video {
 }
 
 body {
+    min-width: 1450px;
     font-weight: 24px;
     font-family: 'NanumSquareAcr'
 }
@@ -227,6 +228,45 @@ body {
 #menu2 ul li img {
     transition: all 0.5s;
 }
+
+#menu3 {
+    padding: 100px 0;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#menu3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#menu3 ul li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#menu3 ul li a {
+    overflow: hidden;
+}
+
+#menu3 ul li p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#menu3 ul li img {
+    width: 100%;
+}
+
+#menu3 ul li:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+#menu3 ul li img {
+    transition: all 0.5s;
+}
+
 
 footer {
     background-color: #393939;
